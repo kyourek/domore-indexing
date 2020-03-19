@@ -10,7 +10,7 @@ namespace Domore.Collections.ObjectModel {
 
         private TItem PrivateCreateItem(TIndex index) {
             var item = CreateItem(index);
-            var args = new ItemCreatedEventArgs(item);
+            var args = new IndexedItemCreatedEventArgs<TItem>(item);
 
             OnItemCreated(args);
 
@@ -39,10 +39,10 @@ namespace Domore.Collections.ObjectModel {
 
         protected abstract TItem CreateItem(TIndex index);
 
-        protected virtual void OnItemCreated(ItemCreatedEventArgs e) =>
+        protected virtual void OnItemCreated(IndexedItemCreatedEventArgs<TItem> e) =>
             ItemCreated?.Invoke(this, e);
 
-        public event ItemCreatedEventHandler ItemCreated;
+        public event IndexedItemCreatedEventHandler<TItem> ItemCreated;
 
         public TItem this[TIndex index] {
             get {
@@ -79,16 +79,6 @@ namespace Domore.Collections.ObjectModel {
             }
 
             public KeyedCollection(IEqualityComparer<TIndex> comparer) : base(comparer) {
-            }
-        }
-
-        public delegate void ItemCreatedEventHandler(object sender, ItemCreatedEventArgs e);
-
-        public class ItemCreatedEventArgs : EventArgs {
-            public TItem Item { get; }
-
-            public ItemCreatedEventArgs(TItem item) {
-                Item = item;
             }
         }
     }
