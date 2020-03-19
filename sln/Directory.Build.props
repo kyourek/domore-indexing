@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <PropertyGroup>
-        <Authors>Ken Yourek</Authors>
-        <Copyright>Copyright © Ken Yourek 2020</Copyright>
-        <VersionPrefix></VersionPrefix>
-        <VersionSuffix></VersionSuffix>
-        <AssemblyVersion></AssemblyVersion>
-        <InformationalVersion></InformationalVersion>
-        <FileVersion>0.1.0</FileVersion>
-        <PackageVersion></PackageVersion>
-        <PackageProjectUrl>https://github.com/kyourek/domore-indexing</PackageProjectUrl>
-        <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/kyourek/domore-indexing.git</RepositoryUrl>
-        <RepositoryBranch></RepositoryBranch>
-        <RepositoryCommit></RepositoryCommit>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-        <PackageTags></PackageTags>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Ken Yourek</Authors>
+    <Copyright>Copyright © Ken Yourek 2020</Copyright>
+    <VersionPrefix>0.1.0.1</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <AssemblyVersion>0.1.0.1</AssemblyVersion>
+    <InformationalVersion>0.1.0.1</InformationalVersion>
+    <FileVersion>0.1.0.1</FileVersion>
+    <PackageVersion>0.1.0.1</PackageVersion>
+    <PackageProjectUrl>https://github.com/kyourek/domore-indexing</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/kyourek/domore-indexing.git</RepositoryUrl>
+    <RepositoryBranch>master</RepositoryBranch>
+    <RepositoryCommit>269356b478f583743ab9d72efc91f4b21b96cf9e</RepositoryCommit>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags></PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
 </Project>
