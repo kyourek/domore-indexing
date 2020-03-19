@@ -11,9 +11,7 @@ namespace Domore.Collections.ObjectModel {
         private TItem PrivateCreateItem(TIndex index) {
             var item = CreateItem(index);
             var args = new IndexedItemCreatedEventArgs<TItem>(item);
-
             OnItemCreated(args);
-
             return item;
         }
 

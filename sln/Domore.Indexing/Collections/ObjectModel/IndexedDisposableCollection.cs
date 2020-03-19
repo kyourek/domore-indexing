@@ -11,8 +11,7 @@ namespace Domore.Collections.ObjectModel {
 
         protected virtual void Dispose(bool disposing) {
             if (disposing) {
-                var items = Items();
-                foreach (var item in items) {
+                foreach (var item in this) {
                     item.Dispose();
                 }
             }
