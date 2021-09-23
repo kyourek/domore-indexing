@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>net40;net45;netcoreapp3.1</TargetFrameworks>
+        <TargetFrameworks>net40;net45;netcoreapp3.1;net5.0</TargetFrameworks>
         <RootNamespace>Domore</RootNamespace>
-        <Description>Do More Indexing</Description>
+        <Description>Do more indexing</Description>
     </PropertyGroup>
 </Project>
