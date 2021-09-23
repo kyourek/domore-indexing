@@ -3,17 +3,17 @@
   <PropertyGroup>
     <Authors>Ken Yourek</Authors>
     <Copyright>Copyright © Ken Yourek 2020</Copyright>
-    <VersionPrefix>0.1.0.1</VersionPrefix>
+    <VersionPrefix>0.2.0.2</VersionPrefix>
     <VersionSuffix></VersionSuffix>
-    <AssemblyVersion>0.1.0.1</AssemblyVersion>
-    <InformationalVersion>0.1.0.1</InformationalVersion>
-    <FileVersion>0.2.0.1</FileVersion>
-    <PackageVersion>0.1.0.1</PackageVersion>
+    <AssemblyVersion>0.2.0.2</AssemblyVersion>
+    <InformationalVersion>0.2.0.2</InformationalVersion>
+    <FileVersion>0.2.0.2</FileVersion>
+    <PackageVersion>0.2.0.2</PackageVersion>
     <PackageProjectUrl>https://github.com/kyourek/domore-indexing</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/kyourek/domore-indexing.git</RepositoryUrl>
     <RepositoryBranch>master</RepositoryBranch>
-    <RepositoryCommit>269356b478f583743ab9d72efc91f4b21b96cf9e</RepositoryCommit>
+    <RepositoryCommit>d8f9cc966e0015e95ddd3923d9657e0b09c9fd17</RepositoryCommit>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageTags></PackageTags>
